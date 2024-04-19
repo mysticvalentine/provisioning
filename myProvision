@@ -2,8 +2,6 @@
 # This file will be sourced in init.sh
 # Namespace functions with provisioning_
 
-# https://raw.githubusercontent.com/ai-dock/stable-diffusion-webui/main/config/provisioning/default.sh
-
 ### Edit the following arrays to suit your workflow - values must be quoted and separated by newlines or spaces.
 
 DISK_GB_REQUIRED=30
@@ -35,9 +33,6 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt"
     "https://civitai.com/api/download/models/15640"
     "https://civitai.com/api/download/models/125821"
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
 LORA_MODELS=(
